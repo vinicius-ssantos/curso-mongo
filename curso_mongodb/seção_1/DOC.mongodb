@@ -1,0 +1,14 @@
+# insere um documento
+db.primeiraCollection.insertOne({nome:"Vinicius",idade:22})
+db.primeiraCollection.insertOne({nome:"jonasthan",idade:14})
+
+# encontra um documento
+db.primeiraCollection.findOne({nome:"jonasthan"})
+
+# encontra qualquer documento
+db.primeiraCollection.find({})
+
+db.primeiraCollection.insertOne({nome:"João",idade:40,profisao:"Programador"})
+db.primeiraCollection.find()
+db.primeiraCollection.find()
+

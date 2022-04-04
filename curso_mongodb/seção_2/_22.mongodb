@@ -1,0 +1,5 @@
+db;
+use terceirobanco;
+use quartobanco;
+
+db.collquartobanco.insertOne({nome:"Vinicius"});
