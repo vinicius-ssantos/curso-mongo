@@ -1,1 +1,0 @@
-mongoimport --db=books_db --collection=books --type=json --file=books.json

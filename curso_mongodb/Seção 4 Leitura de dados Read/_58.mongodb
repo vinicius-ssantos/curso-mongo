@@ -1,0 +1,2 @@
+use('bookCollection');
+db.books.find({pageCount:362});
