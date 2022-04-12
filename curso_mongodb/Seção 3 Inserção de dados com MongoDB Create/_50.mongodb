@@ -1,0 +1,14 @@
+/*
+write Concern configuração do insertMany
+- limita o tempo de execussao da inserção
+- retorna time out caso  exceda o tempo delimitado
+- Exemplo: {w:"Majority,timeout:100"}
+- insercao tem 100ms para ser executada
+*/
+
+use('mongo');
+db.mercado.insertMany([
+{nome:"Tesoura",preco:12.99},
+{nome:"Peito de Frango",preco:14.99},
+{nome:"Ameixa",preco:2.50},
+{w:"majority",wtimeout:1}]);

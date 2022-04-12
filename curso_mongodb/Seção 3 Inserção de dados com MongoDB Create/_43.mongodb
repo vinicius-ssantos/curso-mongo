@@ -1,0 +1,5 @@
+use('mongo');
+//db.create.insertOne({nome:"Vinicius",idade: 21,esta_trabalhando:true,hobbies:["Jogar","Programar"]});
+db.create.insertOne({nome:"Maria",idade: 25});
+
+db.create.find();

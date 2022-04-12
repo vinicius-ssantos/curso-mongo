@@ -1,0 +1,3 @@
+use('mongo');
+//db.provas.insertOne({nome:"José"});
+db.provas.find().pretty();

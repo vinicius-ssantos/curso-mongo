@@ -1,0 +1,4 @@
+use('mongo');
+//db.createCollection('provas');
+//db.provas.insertMany([{nome:"Vinicius",notas:[7,5,8]},{nome:"Maria",notas:[5,7,6]}]);
+db.provas.find();

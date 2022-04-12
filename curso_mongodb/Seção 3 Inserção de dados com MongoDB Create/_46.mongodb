@@ -1,0 +1,6 @@
+use('mongo');
+db.provas.insertMany([{nome:"Maria",notas:[10,5,6]}]);
+
+
+
+db.provas.find().pretty();

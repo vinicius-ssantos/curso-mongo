@@ -1,0 +1,5 @@
+use('mongo');
+db.createCollection('mercado');
+db.mercado.insertMany([
+    {nome:'Arroz',preço:5,disponibilidade:true},
+    {nome:'Feijão',preço:5,disponibilidade:true}]);
